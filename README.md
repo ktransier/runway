@@ -27,6 +27,8 @@ $ gem install runway
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css">
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
+<script src="https://kit.fontawesome.com/0ea5c2cae4.js" crossorigin="anonymous"></script>
 ```
 + Add `mount Runway::Engine, at: "/"` to your `routes.rb`
 
++ Add `runway_config.yml`
